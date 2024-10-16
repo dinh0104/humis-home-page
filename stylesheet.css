@@ -1,0 +1,174 @@
+body {
+    background: #737373;
+}
+
+div.container {
+    border: 1px solid blue;
+    width: 780px;
+    min-height: 500px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+.container header > img {
+    /*min-height: 100px;*/
+    display: block;
+}
+
+.nav {
+    text-align: right;
+    margin-right: 1rem;
+}
+
+.nav a {
+    color: black;
+    text-transform: uppercase;
+    margin: 0 3px;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.nav span a:hover {
+    text-decoration: underline;
+}
+
+.nav span:after {
+    content: " |";
+}
+
+.nav span:last-of-type:after {
+    content: "";
+}
+
+.top a img {
+    vertical-align: middle;
+    max-height: 2%;
+    max-width: 2%;
+}
+
+.middle {
+    background-image: url("uofu_medallion_rt.gif");
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+
+section.guts {
+    /*min-height: 550px;*/
+    background-color: #d2d2b8;
+    border-radius: 20px;
+    margin: 1rem 1rem 5.5rem 1rem;
+    padding: 1rem;
+    /*border: 1px solid blue;*/
+
+}
+
+div.middle section.guts aside.nav,
+div.middle section.guts article.main {
+    /*border: 1px solid white;*/
+}
+
+div.middle section.guts aside.nav {
+    float: left;
+    width: 220px;
+    /*min-height: 600px;*/
+    font-size: 85%;
+}
+
+aside.nav a {
+    display: block;
+    border-bottom: 1.5px solid #8a8e5f;
+    font-size: 75%;
+    padding: 10px;
+    text-align: left;
+    width: 150px;
+    margin-left: 25px;
+}
+
+aside.nav div.humis-login a {
+    margin: 180px 50px 0 20px;
+    border-bottom-style: none;
+    /* ^same as border-bottom: unset;^ */
+}
+
+aside.nav div.humis-login a:hover {
+    background-color: unset;
+}
+
+aside.nav div.cis-login a {
+    border-bottom-style: none;
+}
+
+aside.nav div.cis-login a:hover {
+    background-color: unset;
+}
+
+aside.nav a:hover{
+    background-color: #bcbd9c;
+    text-decoration: underline;
+}
+
+div.middle section.guts article.main {
+    float: right;
+    width: 460px;
+    background-color: #fff;
+    padding: 0.5rem;
+}
+
+article.main img {
+    width: 100%;
+}
+
+article.main h1 {
+    color: darkolivegreen;
+    font-weight: normal;
+    text-transform: uppercase;
+    border-bottom: 2px dotted red;
+    margin-bottom: 0.5rem;
+}
+
+article.main div.content {
+    height: 100px;
+    overflow: auto;
+}
+
+article.main a {
+    display: block;
+    color: red;
+    text-align: right;
+    text-decoration: none;
+    font-size: 90%;
+    margin: 0.5rem 0;
+}
+
+article.main a:hover {
+    text-decoration: underline;
+}
+
+/*aside.login-nav img {
+    display: block;
+    float: left;
+}*/
+
+div.content p {
+    margin-top: 0;
+}
+
+div.content p span {
+    font-weight: bold;
+} /*should be bold version of chosen font and not making it bold*/
+
+.bottom a {
+    text-transform: lowercase;
+    font-size: 9px;
+}
+
+footer {
+    background-color: #575f21;
+    color: white;
+    font-size: 9px;
+    text-align: center;
+    padding: 5px 0;
+}
+
